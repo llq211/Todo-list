@@ -1,0 +1,48 @@
+body{
+    background-color: #e7d5d0;
+}
+.out_box{
+    /* margin:0 auto;*/
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    border-radius: 5px;
+    height: 50%;
+    width: 50%;
+    background-color:white;
+}
+.box_todolist{
+    width:50%;
+    height: 50%;
+    border-radius:10px;
+    background-color:rgb(241, 231, 211);
+    box-shadow:5px 3px 3px 4px rgb(64, 65, 64);
+    border:2px solid rgb(48, 21, 30);
+}
+.Delete{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    float: right;
+    background-color:green;
+
+}
+.click{
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+    color: rgba(255, 255, 255, 0.945);
+    background-color: rgb(66, 142, 204);
+    color: lavender;
+    border-color: #5882f3;
+    width: 50%;
+    display: block;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.click:hover {
+    background-color: rgb(56, 101, 184);
+    color: rgb(248, 248, 248);
+}
